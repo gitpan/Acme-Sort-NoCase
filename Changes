@@ -1,0 +1,28 @@
+Revision history for Perl extension Acme::Sort::NoCase.
+
+0.24 2005/02/23
+ - Namespace changed from previously Sort::NoCase
+   to Acme::Sort::NoCase as proposed by others.
+
+0.19 2004/02/09
+ - Distribution renamed to Sort::NoCase.
+ - Source filtering has vanished and is replaced by the 
+   by default exported sorti().
+
+0.15 2004/01/23
+ - Bug removement; thanks to RJBS.
+
+0.13 2004/01/22
+ - Source is filtered.
+
+0.1 2004/01/18
+ - Subs are called via AUTOLOAD.
+
+0.05 2004/01/18
+ - Exporter is being used.
+
+0.02 2004/01/17
+ - Unimport() destroys all typeglobs.
+
+0.01 2004/01/16
+ - Initial version.
